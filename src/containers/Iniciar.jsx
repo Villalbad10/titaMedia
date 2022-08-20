@@ -14,7 +14,7 @@ const Iniciar = () => {
             <form className='formLogin'>
                <input className='input-login' type="email" name="" required placeholder='Correo' /> <br />
                <input className='input-login' type="password" name="" required placeholder='Contraseña' />
-               <div className='contLogin'> <Boton text={'Iniciar Sesión'} /></div>
+               <div className='contLogin'> <Boton text='Iniciar Sesión' type='submit' /></div>
                <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/google_avbjfd.png' text='Goolge' />
                <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/facebook_amuwqc.png' text='Facebook' />
             </form>

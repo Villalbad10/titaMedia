@@ -2,8 +2,9 @@ import React from 'react'
 
 const Home = () => {
    return (
-      <div >ds
+      <div >
          <p>efsdvz</p>
+         <h1>asffs</h1>
       </div>
    )
 }
