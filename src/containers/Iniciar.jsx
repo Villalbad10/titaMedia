@@ -1,9 +1,11 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
 import Boton from '../components/Boton';
 import IniciaCon from '../components/IniciaCon';
+import { loginGoogle } from '../firebase/loginGoogle';
 
 const Iniciar = () => {
-
+   const dispatch = useDispatch();
    return (
       <section className='container-login'>
          <div className='loginOpciones'>
@@ -15,9 +17,11 @@ const Iniciar = () => {
                <input className='input-login' type="email" name="" required placeholder='Correo' /> <br />
                <input className='input-login' type="password" name="" required placeholder='Contraseña' />
                <div className='contLogin'> <Boton text='Iniciar Sesión' type='submit' /></div>
-               <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/google_avbjfd.png' text='Goolge' />
-               <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/facebook_amuwqc.png' text='Facebook' />
             </form>
+            <span onClick={() => dispatch(loginGoogle())}>
+               <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/google_avbjfd.png' text='Google' />
+            </span>
+            <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/facebook_amuwqc.png' text='Facebook' />
          </div>
          <div className='container-img'>
             <img className='center' src="https://res.cloudinary.com/villalbad10/image/upload/v1661013468/titaMedia/loginLogo_k6yfll.png" />
