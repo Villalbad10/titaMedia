@@ -14,3 +14,4 @@ const firebaseConfig = {
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const google = new GoogleAuthProvider();
+export const facebook = new FacebookAuthProvider();

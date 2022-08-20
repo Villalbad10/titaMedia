@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import Boton from '../components/Boton';
 import IniciaCon from '../components/IniciaCon';
+import { loginFacebook } from '../firebase/loginFacebook';
 import { loginGoogle } from '../firebase/loginGoogle';
 
 const Iniciar = () => {
@@ -21,7 +22,10 @@ const Iniciar = () => {
             <span onClick={() => dispatch(loginGoogle())}>
                <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/google_avbjfd.png' text='Google' />
             </span>
-            <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/facebook_amuwqc.png' text='Facebook' />
+            <span onClick={() => dispatch(loginFacebook())}>
+               <IniciaCon img='https://res.cloudinary.com/villalbad10/image/upload/v1661009700/titaMedia/facebook_amuwqc.png' text='Facebook' />
+
+            </span>
          </div>
          <div className='container-img'>
             <img className='center' src="https://res.cloudinary.com/villalbad10/image/upload/v1661013468/titaMedia/loginLogo_k6yfll.png" />
