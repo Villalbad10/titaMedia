@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+
+:root {
+   --colorPrimario: #07b464;
+   --bgBlanco: #ffffff;
+   --gbVerde: #ebfcf4;
+   --colorFuente: #0B4654;
+   --fuente: 'Athiti', sans-serif;
+}
+
+* {
+   font-family: var(--fuente);
+   margin: 0;
+}
+
+.container {
+   margin-left: 8%;
+   margin-right: 8%;
+}
+
+.center {
+   display: block;
+   margin: 0 auto;
+}
+
+.login-text {
+   color: var(--colorFuente);
+   text-align: center;
+}
+
+.input-login {
+   border: 1px solid rgba(11, 70, 84, 0.25);
+   border-radius: .3rem;
+   color: var(--colorFuente);
+   font-size: 1rem;
+   margin-top: .5rem;
+   height: 2.5rem;
+   width: 100%;
+}
+
+.boton {
+   background-color: var(--colorPrimario);
+   border: 2px solid var(--colorPrimario);
+   border-radius: .7rem;
+   color: var(--bgBlanco);
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: bold;
+   margin-top: 1rem;
+   height: 3rem;
+   width: 101%;
+}
+
+.contLogin{
+   margin-top: 2rem;
+}
+
+.btnGF {
+   align-items: center;
+   background-color: transparent;
+   border: 3px solid rgba(11, 70, 84, 0.25);
+   border-radius: .7rem;
+   cursor: pointer;
+   font-size: 1rem;
+   margin-top: .5rem;
+   color: rgb(75, 74, 74);
+   height: 3rem;
+   width: 100%;
+}
+
+.btnGF:hover {
+   background-color: rgba(39, 39, 39, 0.486);
+   color: var(--bgBlanco);
+}
+
+.btnGF img {
+   margin-right: 10px;
+   width: 1rem;
+}
+
+.formLogin {
+   text-align: center;
+}
+
+.boton:hover {
+   background-color: var(--bgBlanco);
+   border: 2px solid var(--colorPrimario);
+   color: var(--colorPrimario);
+}
+
+@media(max-width: 500px) {
+   .logo {
+      visibility: hidden;
+   }
+
+
+}
