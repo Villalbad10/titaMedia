@@ -73,4 +73,4 @@ npm run start
 
 ## 😃👍  Muestra tu apoyo
 
-¡Dale un⭐️ if you liked it!
+¡Dale un⭐️ si te gusto!
