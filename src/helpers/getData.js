@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getData = (endPoint) => {
-   const URL = `https://dummyapi.io/data/v1/${endPoint}?limit=2`;
+   const URL = `https://dummyapi.io/data/v1/${endPoint}?limit=10`;
 
    const res = axios.get(URL, {
       headers: {
