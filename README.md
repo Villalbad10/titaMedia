@@ -1,4 +1,4 @@
-# Bienvenidos to TitaNet!
+# Bienvenidos a TitaNet!
 
 <div align="center">
   <a target="_blank" href="https://vivi-b2804.web.app">
@@ -9,9 +9,6 @@
 <div align="center">
   <a target="_blank" href="https://reactjs.org/">
     <img title="React" alt="React badge" src="https://img.shields.io/badge/18.2.0-React-61DAFB?style&logo=react" />
-  </a>
-  <a target="_blank" href="https://reactjs.org/">
-    <img title="Create React App" alt="Create React App badge" src="https://img.shields.io/badge/18.2.0-Create%20React%20App-09D3AC?style&logo=create-react-app" />
   </a>
   <a target="_blank" href="https://reactrouter.com/">
     <img title="React Router" alt="React Router badge" src="https://img.shields.io/badge/6.3.0-React%20Router-CA4245?style&logo=react-router" />
@@ -44,9 +41,9 @@ Colores utilizados.
 
 | Color         | Hex                                                              |
 | ------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#07b464](https://via.placeholder.com/15/fff/fff.png) #ffffff |
-| Secondary Color | ![#0B4654](https://via.placeholder.com/15/ffbd29/ffbd29.png) #ffbd29 |
-| Background Color | ![#ebfcf4](https://via.placeholder.com/15/565252/565252.png) #565252 |
+| Primary Color | ![#07b464](https://via.placeholder.com/15/07b464/07b464.png) #07b464 |
+| Secondary Color | ![#0B4654](https://via.placeholder.com/15/0B4654/0B4654.png) #0B4654 |
+| Background Color | ![#ebfcf4](https://via.placeholder.com/15/ebfcf4/ebfcf4.png) #ebfcf4 |
 
 ## 🦾 Tecnologias
 
