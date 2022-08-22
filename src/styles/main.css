@@ -63,7 +63,7 @@ body {
 .login-text {
    color: var(--colorFuente);
    font-size: 2rem;
-   margin-top: -8rem;
+   margin-top: 1rem;
    text-align: center;
 }
 
@@ -366,10 +366,7 @@ header {
 }
 
 @media(max-width: 800px) {
-   .logo {
-      display: none;
-   }
-
+  
    .login-text {
       margin-top: 1rem;
    }
@@ -385,8 +382,8 @@ header {
    }
 
    .logoLogin {
-      margin-top: 2rem;
       visibility: visible;
+      margin-top: 2rem;
    }
 
    .container-img {

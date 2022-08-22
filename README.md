@@ -45,7 +45,7 @@ Colores utilizados.
 | Secondary Color | ![#0B4654](https://via.placeholder.com/15/0B4654/0B4654.png) #0B4654 |
 | Background Color | ![#ebfcf4](https://via.placeholder.com/15/ebfcf4/ebfcf4.png) #ebfcf4 |
 
-## 🦾 Tecnologias
+## 🦾 tecnologías 
 
 - [Node.js](https://nodejs.org/)
 - [React](https://reactjs.org/)
