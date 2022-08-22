@@ -1,9 +1,11 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { logoutAction } from '../firebase/logout';
 import Boton from './Boton'
 
 const Header = () => {
    const { data } = useSelector(store => store.todos);
+   const dispatch = useDispatch()
    return (
       <header>
          <section className='container cabecera'>
@@ -13,7 +15,7 @@ const Header = () => {
             </span>
             <img className='header-logo' src="https://res.cloudinary.com/villalbad10/image/upload/v1661129359/titaMedia/Group_9_1_p2afnh.png" alt="TitaNet" />
             <span>
-               <input className='salir' type="button" value="Salir" />
+               <input onClick={() => dispatch(logoutAction())} className='salir' type="button" value="Salir" />
             </span>
          </section>
       </header>

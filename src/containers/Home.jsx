@@ -8,11 +8,10 @@ const Home = () => {
    const [data, setData] = useState([])
    const [id, setId] = useState('60d21b4667d0d8992e610c85')
    const idModal = data.filter(res => res.id == id)
-   console.log(idModal);
 
    useEffect(() => {
       getData('post').then(({ data }) => setData(data.data))
-      console.log(data);
+      //console.log(data);
    }, [])
 
    const handleFiltro = (tag) => {
@@ -68,7 +67,7 @@ const Home = () => {
          }
          {
             idModal.map((res, index) =>
-               <div id="modal3" className="modalmask">
+               <div key={index} id="modal3" className="modalmask">
                   <div className="modalbox resize">
                      <a href="#close" title="Close" className="close">X</a>
                      <h2>{res.owner.firstName} {res.owner.lastName}</h2>
